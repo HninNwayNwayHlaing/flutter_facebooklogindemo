@@ -1,0 +1,42 @@
+PODS:
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - FBSDKCoreKit (4.31.1):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.31.1):
+    - FBSDKCoreKit
+  - Flutter (1.0.0)
+  - flutter_facebook_login (0.0.1):
+    - FBSDKLoginKit (~> 4.29)
+    - Flutter
+  - share (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Pods/.symlinks/flutter/ios`)
+  - flutter_facebook_login (from `Pods/.symlinks/plugins/flutter_facebook_login-1.0.3/ios`)
+  - share (from `Pods/.symlinks/plugins/share-0.4.0/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Pods/.symlinks/flutter/ios
+  flutter_facebook_login:
+    :path: Pods/.symlinks/plugins/flutter_facebook_login-1.0.3/ios
+  share:
+    :path: Pods/.symlinks/plugins/share-0.4.0/ios
+
+SPEC CHECKSUMS:
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  FBSDKCoreKit: e08ccfcefa7bc1347a07c276dac9bf6c7fe57024
+  FBSDKLoginKit: 99797ac39252fef6f72600b886f6ee60b4b29cab
+  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+  flutter_facebook_login: e3d2f0a348889fe0f49c302bc044b8cc66c691be
+  share: 8d04605548e55f7ce4ebb7b3e933f3c85028c9cf
+
+PODFILE CHECKSUM: 793ca17cc5488c2bdeb7f2f95b973a070492cf02
+
+COCOAPODS: 1.4.0
